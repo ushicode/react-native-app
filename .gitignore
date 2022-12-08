@@ -10,5 +10,17 @@ npm-debug.*
 *.orig.*
 web-build/
 
+
+# Node
+node_modules
+*.log
+.nvm
+# package-lock.json
+
+
+# Visual studio
+.vscode
+.vs
+
 # macOS
 .DS_Store
