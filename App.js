@@ -4,18 +4,18 @@ import { Button, StyleSheet, Text, View } from "react-native";
 
 const App = ()=> {
 
-const [name, setName] = useState('Collins')
+const [person, setPerson] = useState({name: 'Collins', age: 18})
 
   const clickHandler = () => {
-    let n = name==='Kiyie'? 'Collins' : 'Kiyie'
-    setName(n)
+    
+    setPerson({name: 'Kiyie', age: 19})
   }
 
 
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.boldText}>User: {name}</Text>
+        <Text style={styles.boldText}>User: {person.name} is {person.age} old</Text>
       </View>
 
       <View style={styles.body}>
