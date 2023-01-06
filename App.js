@@ -6,13 +6,17 @@ import {
 } from "react-native";
 import Home from "./screens/home";
 
+
+
 const App = () => {
   return(
-    <Home/>
-  );
+    
+      <Home />
+      
+  )
 };
-
 export default App;
+
 
 // const styles = StyleSheet.create({
 //   container: {
